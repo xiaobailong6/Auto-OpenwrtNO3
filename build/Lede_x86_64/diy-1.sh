@@ -19,7 +19,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/l
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff  #关机（增加关机功能）
+git clone https://github.com/xiaobailong6/openwrt-filebrowser.git package/lean/luci-app-filebrowser #文件浏览器
 
 rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config  #argon主题设置（编译时候选上,在固件的‘系统’里面）
-#git clone https://github.com/xiaobailong6/openwrt-packages.git
